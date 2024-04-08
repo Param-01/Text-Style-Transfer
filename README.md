@@ -4,6 +4,7 @@
 This project aims to perform text style transfer, specifically converting informal text to formal text. It leverages the NUS Social Media Text Normalization and Translation Corpus. The repository explores two primary approaches:
 1. A simple encoder-decoder model.
 2. An encoder-decoder model with an attention mechanism.
+3. Pre trained model (facebook bart-large)
 
 ## Getting Started
 
@@ -35,4 +36,10 @@ jupyter notebook Simple_Encoder_Decoder.ipynb
 For the attention mechanism-enhanced model:
 ```bash
 jupyter notebook Final_Attention_Model.ipynb
+```
+
+### Using Pretrained Model Facebook Bert-large
+For the pretrained model:
+```bash
+jupyter notebook Pre_Trained_Model.ipynb
 ```
