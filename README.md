@@ -1,7 +1,7 @@
 # Text Style Transfer: Informal to Formal
 
 ## Overview
-This project aims to perform text style transfer, specifically converting informal text to formal text. It leverages the NUS Social Media Text Normalization and Translation Corpus. The repository explores two primary approaches:
+This project aims to perform text style transfer, specifically converting informal text to formal text. It leverages the NUS Social Media Text Normalization and Translation Corpus. The repository explores three primary approaches:
 1. A simple encoder-decoder model.
 2. An encoder-decoder model with an attention mechanism.
 3. Pre trained model (facebook bart-large)
@@ -38,7 +38,7 @@ For the attention mechanism-enhanced model:
 jupyter notebook Final_Attention_Model.ipynb
 ```
 
-### Using Pretrained Model Facebook Bert-large
+### Using Pretrained Model Facebook Bart-large
 For the pretrained model:
 ```bash
 jupyter notebook Pre_Trained_Model.ipynb
