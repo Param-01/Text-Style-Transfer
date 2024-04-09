@@ -43,3 +43,14 @@ For the pretrained model:
 ```bash
 jupyter notebook Pre_Trained_Model.ipynb
 ```
+
+## Streamlit Interface
+
+This project includes a user-friendly interface built using Streamlit, a powerful framework for creating interactive web applications with Python. The interface allows users to interact with the model seamlessly and obtain results in real-time.
+
+### Usage
+To run the Streamlit interface, execute the following command in your terminal:
+
+```bash
+streamlit run app.py
+```
